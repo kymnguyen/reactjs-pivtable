@@ -1,7 +1,7 @@
 {
-  "name": "react-pivottable",
-  "version": "0.11.0",
-  "description": "A React-based pivot table",
+  "name": "biz4e-smptable",
+  "version": "0.1.0",
+  "description": "Reporting table",
   "main": "PivotTableUI.js",
   "files": [
     "PivotTable.js",
@@ -32,18 +32,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plotly/react-pivottable.git"
+    "url": "git+https://github.com/kymnguyen/reactjs-pivtable.git"
   },
   "keywords": [
     "react",
     "pivottable"
   ],
-  "author": "Nicolas Kruchten <nicolas@kruchten.com>",
+  "author": "Loi Nguyen <loi@baokhiem.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/plotly/react-pivottable/issues"
+    "url": "https://github.com/kymnguyen/reactjs-pivtable/issues"
   },
-  "homepage": "https://github.com/plotly/react-pivottable#readme",
+  "homepage": "https://github.com/kymnguyen/reactjs-pivtable#readme",
   "dependencies": {
     "immutability-helper": "^2.3.1",
     "prop-types": "^15.5.10",
@@ -56,6 +56,10 @@
     "react-dom": ">=15.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.2",
